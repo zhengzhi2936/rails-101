@@ -1,3 +1,4 @@
+gem "will_paginate"
 gem "devise"
 source 'https://rubygems.org'
 
