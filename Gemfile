@@ -39,7 +39,11 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'sqlite3'
 end
-
+group :development do
+  gem "capistrano", "~> 3.4"
+  gem "capistrano-rvm"
+  gem "capistrano-rails"
+end
 group :development do
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
